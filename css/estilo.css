@@ -89,11 +89,40 @@ h1{
     justify-content: center;
 }
 .info-ciudad{
-    margin: 60px;
+    margin: 30px;
 }
 .info-ciudad img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
     border: 7px solid black;
+}
+#viajes{
+    background: black;
+    color: brown;
+    text-align: center;
+    padding: 30px;
+}
+#viajes h2{
+    padding: 20px;
+    text-transform: uppercase;
+}
+#viajes .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-viajes{
+    margin: 60px;
+}
+.info-viajes img{
+    border-radius: 50%;
+    border: 7px solid brown;
+    width: 100px;
+    height: 100px;
+}
+#promociones{
+    background: red;
+    color: white;
+    text-align: absolute;
 }
