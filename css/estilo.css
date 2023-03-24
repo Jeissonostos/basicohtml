@@ -30,8 +30,8 @@ h1{
     position: absolute;
     top: 50%;
     left: 50%;
-    color: black;
-    transform: translateX(600px)translateY(-500px);
+    color: red;
+    transform: translateX(600px)translateY(-600px);
 }
 .menu a{
     display: inline-flex;
@@ -124,5 +124,72 @@ h1{
 #promociones{
     background: red;
     color: white;
-    text-align: absolute;
+    text-align: center;
+    padding: 30px;
+}
+#promociones h2{
+    padding: 20px;
+    text-transform: uppercase;
+}
+#promociones .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-promociones{
+    margin: 60px;
+}
+.info-promociones img{
+    border-radius: 50%;
+    border: 7px solid whitesmoke;
+    width: 100px;
+    height: 100px;
+}
+#ubicacion{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+#ubicacion h1{
+    font-size: 25px;
+     font-weight: uppercase;
+}
+#ubicacion .contenedor{
+    display: flex;
+    padding: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#ubicacion .comtenedor iframe{
+    width: 45%;
+    border: 10px solid white;
+}
+#ubicacion .contenedor p{
+    padding: 40px;
+    width: 50;
+    text-align: center;
+}
+footer{
+    background: red;
+}
+footer .contenedor{
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+    padding: 30px;
+    color:white;
+}
+.copy{
+    font-size: 20px;
+    padding: 20px;
+}
+.red-social{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.red-social a{
+    color: aqua;
+    text-decoration: none;
 }
