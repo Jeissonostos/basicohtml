@@ -14,9 +14,13 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 100;
 }
 h1{
     float: left;
+}
+header .contenedor{
+    display: table;
 }
 #banner{
     margin-top: 50px;
@@ -33,12 +37,50 @@ h1{
     color: red;
     transform: translateX(600px)translateY(-600px);
 }
+#banner h2{
+    font-size: 26px;
+}
+#banner a{
+    display: block;
+    width: 100px;
+    color: aqua;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 10px;
+    border: 3px solid aqua;
+}
+#banner a:hover{
+    background: red;
+}
+header label{
+    float: right;
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+#menu-bar{
+    display: none;
+}
+.menu{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 20%;
+    height: 42.5vh;
+    background: rgb(0, 89, 255);
+    transition: all .5s;
+    transform: translateX(-100%);
+}
+#menu-bar:checked ~.menu{
+    transform: translateX(0%);
+}
 .menu a{
-    display: inline-flex;
+    display: block;
     color: black;
     height: 50px;
-    text-decoration: initial;
-    padding: 22px;
+    text-decoration: none;
+    padding: 14px;
+    border: 1px solid black;
   
 }
 .menu a:hover{
